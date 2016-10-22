@@ -340,16 +340,8 @@ main .wrapper {
 
 .top-section-left li {
 	position: relative;
-}
-
-.top-section-left li:nth-child(odd) {
-	float: left;
-	width: 50%;
-	padding-left: 60px;
-}
-
-.top-section-left li:nth-child(even) {
-	float: right;
+	display: inline-block;
+	margin-right: -5px;
 	width: 50%;
 	padding-left: 60px;
 }
